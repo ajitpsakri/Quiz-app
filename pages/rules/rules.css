@@ -1,0 +1,9 @@
+@import url(../../css/main.css);
+
+.container-rules{
+    background-color: var(--white);
+    max-width: 70%;
+    padding: 1rem;
+    border-radius: 9px;
+    box-shadow: 1px 1px 10px;
+}
