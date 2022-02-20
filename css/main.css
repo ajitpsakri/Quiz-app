@@ -9,6 +9,9 @@
     --white:white;
 }
 /* || reusable code blocks */
+.text-color{
+    color: var(--primary);
+}
 .line-reset{
     list-style: none;
 }
@@ -51,6 +54,9 @@
 }
 .justify-even{
     justify-content: space-evenly;
+}
+.justify-between{
+    justify-content: space-between;
 }
 .align-center{
     align-items: center;
