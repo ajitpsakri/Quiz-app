@@ -1,16 +1,33 @@
 *{
     box-sizing: border-box;
 }
-
+@import url("https://sharp-ui.netlify.app/css/all-css-file.css");
 :root{
     --grey:grey;
     --light-grey:#f7f7f7;
     --primary:#398AB9;
     --white:white;
+    --success:#8BDB81;
+    --error:#FF6464;
 }
 /* || reusable code blocks */
+.bg-success{
+    background-color: var(--success);
+}
+.bg-error{
+    background-color: var(--error);
+}
+.width-100pr{
+    width: 100%;
+}
 .text-color{
     color: var(--primary);
+}
+.text-success{
+    color: var(--success);
+}
+.text-white{
+    color: var(--white);
 }
 .line-reset{
     list-style: none;
@@ -33,6 +50,9 @@
 }
 .max-width-61rem{
     max-width: 61rem;
+}
+.max-width-50per{
+    max-width: 50%;
 }
 .height-85vh{
     height: 85vh;
